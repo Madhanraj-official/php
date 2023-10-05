@@ -1,0 +1,63 @@
+*
+{
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+body
+{
+        min-height: 100vh;
+        background: url('background.jpg');
+        background-size: cover;
+        background-position: center;
+        backdrop-filter: blur(2px);
+}
+h1
+{
+        color: black;
+        display: inline-block;
+}
+#text
+{
+        color: aqua;
+}
+header
+{
+        justify-content: space-between;
+        width: 100%;
+        display:flex;
+        background-color: blanchedalmond;
+        backdrop-filter: blur(10px);
+}
+nav
+{
+        justify-content: space-between;
+        display: inline-block;
+        margin-right: 10px;
+}
+a
+{
+        text-decoration: none;
+        font-size: 25px;
+        color: gray;
+        font-family: sans-serif;
+        margin-left: 10px;
+}
+a:hover
+{
+        color: black;
+}
+h2
+{
+        font-size:50px ;
+        padding: 10px;
+}
+p
+
+{
+        margin-right: 20%;
+        text-align: right;
+        font-size: 20px;
+        font-style: oblique;
+
+}
